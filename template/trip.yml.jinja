@@ -1,7 +1,7 @@
-trip_name: "{{ trip_name }}"
-destination: "{{ destination }}"
-start_date: "{{ start_date }}"
-end_date: "{{ end_date }}"
+trip_name: {{ trip_name | tojson }}
+destination: {{ destination | tojson }}
+start_date: {{ start_date | tojson }}
+end_date: {{ end_date | tojson }}
 year: {{ trip_year }}
 purpose: ""
 event: ""
