@@ -1,0 +1,30 @@
+_min_copier_version: "9.0.0"
+_subdirectory: template
+
+trip_name:
+  type: str
+  help: Short trip or event name (for example, ICIS)
+  default: Conference
+
+trip_year:
+  type: int
+  help: Year of the trip
+  default: 2026
+
+destination:
+  type: str
+  help: Destination city and country
+  default: ""
+
+start_date:
+  type: str
+  help: Departure date (YYYY-MM-DD)
+  default: ""
+
+end_date:
+  type: str
+  help: Return date (YYYY-MM-DD)
+  default: ""
+
+_tasks:
+  - "mkdir -p approval funding transport accommodation registration receipts reimbursement"

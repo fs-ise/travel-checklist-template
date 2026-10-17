@@ -1,0 +1,14 @@
+trip_name: "{{ trip_name }}"
+destination: "{{ destination }}"
+start_date: "{{ start_date }}"
+end_date: "{{ end_date }}"
+year: {{ trip_year }}
+purpose: ""
+event: ""
+organizer: ""
+travel_request_id: ""
+funding_source: ""
+budget_approver: ""
+estimated_budget: null
+currency: EUR
+travelers: []

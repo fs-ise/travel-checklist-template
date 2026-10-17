@@ -1,0 +1,12 @@
+# Do not commit personal identity or payment data.
+*.p12
+*.pfx
+*.key
+*.pem
+*.asc
+*.gpg
+
+# Temporary scans and exports; move relevant records to the appropriate folder first.
+*.tmp
+*.part
+~$*
