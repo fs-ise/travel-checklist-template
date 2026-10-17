@@ -28,3 +28,4 @@ end_date:
 
 _tasks:
   - "mkdir -p approval funding transport accommodation registration receipts reimbursement"
+  - "curl --fail --location --silent --show-error https://raw.githubusercontent.com/fs-ise/handbook/main/checklists/travel.md --output checklist.md"
